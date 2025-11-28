@@ -25,21 +25,35 @@
     <p>I currently attend Michigan State University. My major is in Information Science with a focus in Media and Information. I also work at the Michigan Department of Attorney General as an IT student. I still love to play video games but I've switched to a lot newer games such as Marvel Rivals, I've also slowly picked up games such as League of Legends and DOTA! I also have really loved traveling taking trips to Flroida, Mackinac Island, the UP, Missouri, and even Europe! I still love to ride my bike, MSU's campus has so many amazing trails and paths you can take, it's nice to get a breath of fresh air to break up the stress of classes.</p>
     <footer>
       <form>
-        <p>For questions or concerns, please fill out the form below to reach our service group!</p>
-        <label for="first-name">First Name</label>
-        <input type="text" id="first-name" required>
-        <Label for="middle-initial">Middle Initial (optional)</Label>
-        <input type="text" id="middle-initial" maxlength="1">
-        <label for="last-name">Last Name</label>
-        <input type="text" id="last-name" required>
-        <textarea id="reason" placeholder="Reason for inquiry" required></textarea>
-        <button type="submit">Submit!</button>
+        <p id="form-name">For questions or concerns, please fill out the form below to reach our service group!</p>
+        <div class="container">
+          <div id="group-one">
+            <div class="question">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" required>
+            </div>
+            <div class="question">
+              <Label for="middle-initial">Middle Initial (optional)</Label>
+              <input type="text" id="middle-initial" maxlength="1">
+            </div>
+            <div class="question">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" required>
+            </div>
+          </div>
+          <div id="group-two">
+            <textarea id="reason" placeholder="Reason for inquiry" required></textarea>
+            <button type="submit">Submit!</button>
+          </div>
+        </div>
       </form>
-      <p>Find us on social Media!</p>
-      <img src="Images/facebook.png" alt="facebook">
-      <img src="Images/instagram.png" alt="instagram">
-      <img src="Images/youtube.png" alt="youtube">
-      <P>*all tags @TheHubBlogs*</P>
+      <section id="socials">
+        <p id="socialtitle">Find us on social Media!</p>
+        <img src="Images/facebook.png" alt="facebook">
+        <img src="Images/instagram.png" alt="instagram">
+        <img src="Images/youtube.png" alt="youtube">
+        <p id="tagname">*all tags @TheHubBlogs*</P>
+      </section>
     </footer>
   </body>
 </html>
