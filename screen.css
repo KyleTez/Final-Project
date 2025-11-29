@@ -19,12 +19,23 @@ h1 {
     border-radius: 20px;
     border-top: 3px solid black;
     padding: 10px;
-    font-size: 60px;
+    font-size: 80px;
     max-width: fit-content;
     display: flex;
     align-items: center;
     text-decoration: underline overline;
     text-underline-offset: 15px;
+}
+
+h2{
+    font-size: 70px;
+    text-decoration: underline;
+    background-color: #634133;
+    width: 680px;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 nav {
@@ -51,10 +62,11 @@ li {
 }
 
 #site-navigation {
-    margin: 0px;
-    text-align: center;
+    margin: 0px auto;
     font-size: 30px;
     text-decoration: underline;
+    border-radius: 5px;
+    width: 235px;
 }
 
 #siteinfo {
@@ -151,10 +163,15 @@ textarea {
     font-size: 25px;
     margin: 0;
     text-decoration: underline;
+    text-align: center;
 }
 
 #tagname {
     margin: 10px 0 0 0;
     font-size: 21px;
     text-align: center;
+}
+
+.main {
+    display: flex;
 }
