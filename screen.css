@@ -172,6 +172,39 @@ textarea {
     text-align: center;
 }
 
-.main {
+#about {
     display: flex;
+    width: 1200px;
+    margin: 0 auto 30px auto;
+    gap: 30px;
+}
+
+.content {
+    flex: 1;
+    background-color: #523125;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#welcome {
+    font-size: 30px;
+    margin: 0;
+}
+
+.rating {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.reaction {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+span {
+    font-size: 20px;
 }
