@@ -329,10 +329,157 @@ span {
     }
 
     textarea {
-    width: 230px;
-    height: 70px;
-    font-size: 15px;
+         width: 230px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+    .paragraph {
+        font-size: 18px;
     }
 }
 
+@media screen and (max-width: 1125px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+            "title nav"
+            "info info";
+        align-items: center;
+        gap: .5rem;
+        text-align: center;
+    }
 
+    header > h1 {
+        grid-area: title;
+        margin: 0;
+        height: 110px;
+        font-size: 40px;
+    }
+
+    header > nav {
+        grid-area: nav;
+        margin: 0;
+    }
+
+    header > #siteinfo {
+        grid-area: info;
+        width: 300px;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 20px;
+        width: 300px;
+        margin: 10px auto;
+    }
+
+    .content {
+        width: 400px;
+    }
+
+    .rating {
+        font-size: 20px;
+    }
+
+    #welcome {
+        font-size: 15px;
+    }
+
+    .reaction img {
+        width: 60px;
+        height: auto;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    #about {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    form {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    #form-name {
+        font-size: 13px;
+    }
+  
+    label {
+        font-size: 12px;
+        margin: 0 2px 2px 0px;
+    }
+  
+    input {
+        width: 90px;
+        height: auto;
+    }
+
+    #group-one {
+        margin: 0;
+    }
+
+    #group-two {
+        margin: 0;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    textarea {
+        width: 170px;
+        height: 90px;
+    }
+
+    .container{
+        gap: 20px;
+    }
+
+    #socials {
+        margin-top: 5px;
+        text-align: center;
+    }
+  
+    #socials img {
+        width: 50px;
+        height: auto;
+    }
+
+    #tagname {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .main-content {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .left-area {
+        margin: 0;
+        padding: 8px;
+    }
+
+    .area {
+        margin: 0;
+        padding: 8px;
+    }
+
+    .main-content img {
+        width: 300px;
+        height: auto;
+        margin: 6px;
+    }
+}
