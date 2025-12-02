@@ -129,11 +129,12 @@ form {
     margin: 0 0 10px 0;
     font-size: 25px;
     text-decoration: underline;
+    text-align: center;
 }
 
 label {
     font-size: 20px;
-    margin: 0 0 5px 0;
+    margin: 0 5px 5px 0;
     max-width: fit-content;
 }
 
@@ -174,7 +175,7 @@ textarea {
 
 #about {
     display: flex;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto 30px auto;
     gap: 30px;
 }
@@ -244,3 +245,94 @@ span {
     margin: 0;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1500px){
+    h1 {
+        font-size: 60px;
+    }
+
+    #siteinfo {
+        font-size: 25px;
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    #siteinfo {
+        font-size: 20px;
+    }
+
+    nav {
+        width: 150px;
+    }
+
+    #site-navigation {
+        font-size: 20px;
+        width: 125px;
+    }
+
+    #sites {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 50px;
+        width: 500px;
+    }
+    
+    .content {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        font-size: 18px;
+    }
+    
+    .rating {
+        font-size: 25px;
+    }
+
+    .reaction img {
+        width: 80px;
+        height: auto;
+    }
+
+    #form-name {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    #socialtitle {
+        font-size: 18px;
+    }
+
+    #socials img {
+        width: 60px;
+        height: auto;    
+    }
+
+    #tagname {
+        font-size: 18px;
+    }
+
+    textarea {
+    width: 230px;
+    height: 70px;
+    font-size: 15px;
+    }
+}
+
+
